@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@unumux/ux-build-tools": "3.7.0"
+  },
+  "scripts": {
+    "start": "gulp --gulpfile=node_modules/@unumux/ux-build-tools/index.js --cwd=."
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.11",
+    "jquery": "^3.2.1",
+    "what-input": "^4.3.1"
+  }
+}
